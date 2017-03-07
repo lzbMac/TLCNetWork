@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F07FD441E6E7E0600DFD5ED /* RequestChangePwd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD411E6E7E0600DFD5ED /* RequestChangePwd.m */; };
+		8F07FD451E6E7E0600DFD5ED /* ResponseChangePwd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD431E6E7E0600DFD5ED /* ResponseChangePwd.m */; };
+		8F07FD561E6E7EA800DFD5ED /* NSObject+TLCReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD481E6E7EA800DFD5ED /* NSObject+TLCReflection.m */; };
+		8F07FD571E6E7EA800DFD5ED /* TLCBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD4A1E6E7EA800DFD5ED /* TLCBaseRequest.m */; };
+		8F07FD581E6E7EA800DFD5ED /* TLCBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD4C1E6E7EA800DFD5ED /* TLCBaseResponse.m */; };
+		8F07FD591E6E7EA800DFD5ED /* TLCNetworkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD4F1E6E7EA800DFD5ED /* TLCNetworkError.m */; };
+		8F07FD5A1E6E7EA800DFD5ED /* TLCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD511E6E7EA800DFD5ED /* TLCNetworking.m */; };
+		8F07FD5B1E6E7EA800DFD5ED /* TLCNetworkingEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD531E6E7EA800DFD5ED /* TLCNetworkingEngine.m */; };
+		8F241A821E6D0840000F164D /* RequestIndexBanners.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F241A811E6D0840000F164D /* RequestIndexBanners.m */; };
+		8F241A851E6D0A0A000F164D /* ResponseIndexBanners.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F241A841E6D0A0A000F164D /* ResponseIndexBanners.m */; };
+		8F241A881E6D5269000F164D /* RequestConfirmOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F241A871E6D5269000F164D /* RequestConfirmOrder.m */; };
+		8F241A8B1E6D527A000F164D /* ResponseConfirmOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F241A8A1E6D527A000F164D /* ResponseConfirmOrder.m */; };
+		8F241A8E1E6D6636000F164D /* RequestIndexGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F241A8D1E6D6636000F164D /* RequestIndexGoods.m */; };
+		8F241A911E6D664C000F164D /* ResponseIndexGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F241A901E6D664C000F164D /* ResponseIndexGoods.m */; };
+		8F4176681E6CFE7F00E21843 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4176671E6CFE7F00E21843 /* main.m */; };
+		8F41766B1E6CFE7F00E21843 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F41766A1E6CFE7F00E21843 /* AppDelegate.m */; };
+		8F41766E1E6CFE7F00E21843 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F41766D1E6CFE7F00E21843 /* ViewController.m */; };
+		8F4176711E6CFE7F00E21843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F41766F1E6CFE7F00E21843 /* Main.storyboard */; };
+		8F4176731E6CFE7F00E21843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4176721E6CFE7F00E21843 /* Assets.xcassets */; };
+		8F4176761E6CFE7F00E21843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4176741E6CFE7F00E21843 /* LaunchScreen.storyboard */; };
+		E5D6F31357718D19595D453E /* libPods-TLCNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D22F12F4F8A3A62BE8E64E9E /* libPods-TLCNetWork.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AE0C51BA1AEE891D681B3EC /* Pods-TLCNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLCNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLCNetWork/Pods-TLCNetWork.debug.xcconfig"; sourceTree = "<group>"; };
+		71DD72837833F5F982449AF0 /* Pods-TLCNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLCNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLCNetWork/Pods-TLCNetWork.release.xcconfig"; sourceTree = "<group>"; };
+		8F07FD401E6E7E0600DFD5ED /* RequestChangePwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestChangePwd.h; sourceTree = "<group>"; };
+		8F07FD411E6E7E0600DFD5ED /* RequestChangePwd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestChangePwd.m; sourceTree = "<group>"; };
+		8F07FD421E6E7E0600DFD5ED /* ResponseChangePwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseChangePwd.h; sourceTree = "<group>"; };
+		8F07FD431E6E7E0600DFD5ED /* ResponseChangePwd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseChangePwd.m; sourceTree = "<group>"; };
+		8F07FD471E6E7EA800DFD5ED /* NSObject+TLCReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TLCReflection.h"; sourceTree = "<group>"; };
+		8F07FD481E6E7EA800DFD5ED /* NSObject+TLCReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TLCReflection.m"; sourceTree = "<group>"; };
+		8F07FD491E6E7EA800DFD5ED /* TLCBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCBaseRequest.h; sourceTree = "<group>"; };
+		8F07FD4A1E6E7EA800DFD5ED /* TLCBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCBaseRequest.m; sourceTree = "<group>"; };
+		8F07FD4B1E6E7EA800DFD5ED /* TLCBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCBaseResponse.h; sourceTree = "<group>"; };
+		8F07FD4C1E6E7EA800DFD5ED /* TLCBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCBaseResponse.m; sourceTree = "<group>"; };
+		8F07FD4D1E6E7EA800DFD5ED /* TLCJSONEntityElementProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCJSONEntityElementProtocol.h; sourceTree = "<group>"; };
+		8F07FD4E1E6E7EA800DFD5ED /* TLCNetworkError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCNetworkError.h; sourceTree = "<group>"; };
+		8F07FD4F1E6E7EA800DFD5ED /* TLCNetworkError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCNetworkError.m; sourceTree = "<group>"; };
+		8F07FD501E6E7EA800DFD5ED /* TLCNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCNetworking.h; sourceTree = "<group>"; };
+		8F07FD511E6E7EA800DFD5ED /* TLCNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCNetworking.m; sourceTree = "<group>"; };
+		8F07FD521E6E7EA800DFD5ED /* TLCNetworkingEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCNetworkingEngine.h; sourceTree = "<group>"; };
+		8F07FD531E6E7EA800DFD5ED /* TLCNetworkingEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCNetworkingEngine.m; sourceTree = "<group>"; };
+		8F07FD541E6E7EA800DFD5ED /* TLCRequestOperationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCRequestOperationProtocol.h; sourceTree = "<group>"; };
+		8F07FD551E6E7EA800DFD5ED /* TLCRequestParameterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCRequestParameterProtocol.h; sourceTree = "<group>"; };
+		8F241A801E6D0840000F164D /* RequestIndexBanners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestIndexBanners.h; sourceTree = "<group>"; };
+		8F241A811E6D0840000F164D /* RequestIndexBanners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestIndexBanners.m; sourceTree = "<group>"; };
+		8F241A831E6D0A0A000F164D /* ResponseIndexBanners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseIndexBanners.h; sourceTree = "<group>"; };
+		8F241A841E6D0A0A000F164D /* ResponseIndexBanners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseIndexBanners.m; sourceTree = "<group>"; };
+		8F241A861E6D5269000F164D /* RequestConfirmOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestConfirmOrder.h; sourceTree = "<group>"; };
+		8F241A871E6D5269000F164D /* RequestConfirmOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestConfirmOrder.m; sourceTree = "<group>"; };
+		8F241A891E6D527A000F164D /* ResponseConfirmOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseConfirmOrder.h; sourceTree = "<group>"; };
+		8F241A8A1E6D527A000F164D /* ResponseConfirmOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseConfirmOrder.m; sourceTree = "<group>"; };
+		8F241A8C1E6D6636000F164D /* RequestIndexGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestIndexGoods.h; sourceTree = "<group>"; };
+		8F241A8D1E6D6636000F164D /* RequestIndexGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestIndexGoods.m; sourceTree = "<group>"; };
+		8F241A8F1E6D664C000F164D /* ResponseIndexGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseIndexGoods.h; sourceTree = "<group>"; };
+		8F241A901E6D664C000F164D /* ResponseIndexGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseIndexGoods.m; sourceTree = "<group>"; };
+		8F4176631E6CFE7F00E21843 /* TLCNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLCNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4176671E6CFE7F00E21843 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F4176691E6CFE7F00E21843 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F41766A1E6CFE7F00E21843 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F41766C1E6CFE7F00E21843 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F41766D1E6CFE7F00E21843 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F4176701E6CFE7F00E21843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F4176721E6CFE7F00E21843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F4176751E6CFE7F00E21843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F4176771E6CFE7F00E21843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22F12F4F8A3A62BE8E64E9E /* libPods-TLCNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLCNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F4176601E6CFE7F00E21843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D6F31357718D19595D453E /* libPods-TLCNetWork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A23606D89877BC8976E964A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AE0C51BA1AEE891D681B3EC /* Pods-TLCNetWork.debug.xcconfig */,
+				71DD72837833F5F982449AF0 /* Pods-TLCNetWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F07FD461E6E7EA800DFD5ED /* TLCNetworkJ */ = {
+			isa = PBXGroup;
+			children = (
+				8F07FD471E6E7EA800DFD5ED /* NSObject+TLCReflection.h */,
+				8F07FD481E6E7EA800DFD5ED /* NSObject+TLCReflection.m */,
+				8F07FD491E6E7EA800DFD5ED /* TLCBaseRequest.h */,
+				8F07FD4A1E6E7EA800DFD5ED /* TLCBaseRequest.m */,
+				8F07FD4B1E6E7EA800DFD5ED /* TLCBaseResponse.h */,
+				8F07FD4C1E6E7EA800DFD5ED /* TLCBaseResponse.m */,
+				8F07FD4D1E6E7EA800DFD5ED /* TLCJSONEntityElementProtocol.h */,
+				8F07FD4E1E6E7EA800DFD5ED /* TLCNetworkError.h */,
+				8F07FD4F1E6E7EA800DFD5ED /* TLCNetworkError.m */,
+				8F07FD501E6E7EA800DFD5ED /* TLCNetworking.h */,
+				8F07FD511E6E7EA800DFD5ED /* TLCNetworking.m */,
+				8F07FD521E6E7EA800DFD5ED /* TLCNetworkingEngine.h */,
+				8F07FD531E6E7EA800DFD5ED /* TLCNetworkingEngine.m */,
+				8F07FD541E6E7EA800DFD5ED /* TLCRequestOperationProtocol.h */,
+				8F07FD551E6E7EA800DFD5ED /* TLCRequestParameterProtocol.h */,
+			);
+			path = TLCNetworkJ;
+			sourceTree = "<group>";
+		};
+		8F41765A1E6CFE7F00E21843 = {
+			isa = PBXGroup;
+			children = (
+				8F4176651E6CFE7F00E21843 /* TLCNetWork */,
+				8F4176641E6CFE7F00E21843 /* Products */,
+				8A23606D89877BC8976E964A /* Pods */,
+				F11BD45D6BE2503AB48A968B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F4176641E6CFE7F00E21843 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F4176631E6CFE7F00E21843 /* TLCNetWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F4176651E6CFE7F00E21843 /* TLCNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				8F07FD461E6E7EA800DFD5ED /* TLCNetworkJ */,
+				8F4176691E6CFE7F00E21843 /* AppDelegate.h */,
+				8F41766A1E6CFE7F00E21843 /* AppDelegate.m */,
+				8F241A801E6D0840000F164D /* RequestIndexBanners.h */,
+				8F241A811E6D0840000F164D /* RequestIndexBanners.m */,
+				8F241A831E6D0A0A000F164D /* ResponseIndexBanners.h */,
+				8F241A841E6D0A0A000F164D /* ResponseIndexBanners.m */,
+				8F241A861E6D5269000F164D /* RequestConfirmOrder.h */,
+				8F241A871E6D5269000F164D /* RequestConfirmOrder.m */,
+				8F241A891E6D527A000F164D /* ResponseConfirmOrder.h */,
+				8F241A8A1E6D527A000F164D /* ResponseConfirmOrder.m */,
+				8F241A8C1E6D6636000F164D /* RequestIndexGoods.h */,
+				8F241A8D1E6D6636000F164D /* RequestIndexGoods.m */,
+				8F241A8F1E6D664C000F164D /* ResponseIndexGoods.h */,
+				8F241A901E6D664C000F164D /* ResponseIndexGoods.m */,
+				8F07FD401E6E7E0600DFD5ED /* RequestChangePwd.h */,
+				8F07FD411E6E7E0600DFD5ED /* RequestChangePwd.m */,
+				8F07FD421E6E7E0600DFD5ED /* ResponseChangePwd.h */,
+				8F07FD431E6E7E0600DFD5ED /* ResponseChangePwd.m */,
+				8F41766C1E6CFE7F00E21843 /* ViewController.h */,
+				8F41766D1E6CFE7F00E21843 /* ViewController.m */,
+				8F41766F1E6CFE7F00E21843 /* Main.storyboard */,
+				8F4176721E6CFE7F00E21843 /* Assets.xcassets */,
+				8F4176741E6CFE7F00E21843 /* LaunchScreen.storyboard */,
+				8F4176771E6CFE7F00E21843 /* Info.plist */,
+				8F4176661E6CFE7F00E21843 /* Supporting Files */,
+			);
+			path = TLCNetWork;
+			sourceTree = "<group>";
+		};
+		8F4176661E6CFE7F00E21843 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F4176671E6CFE7F00E21843 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F11BD45D6BE2503AB48A968B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D22F12F4F8A3A62BE8E64E9E /* libPods-TLCNetWork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F4176621E6CFE7F00E21843 /* TLCNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F41767A1E6CFE7F00E21843 /* Build configuration list for PBXNativeTarget "TLCNetWork" */;
+			buildPhases = (
+				F1B5B428E17D6465A3EF1526 /* [CP] Check Pods Manifest.lock */,
+				8F41765F1E6CFE7F00E21843 /* Sources */,
+				8F4176601E6CFE7F00E21843 /* Frameworks */,
+				8F4176611E6CFE7F00E21843 /* Resources */,
+				7E046E93359CF51558828BB0 /* [CP] Embed Pods Frameworks */,
+				B41D4EB4C216DD25FA519B2F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLCNetWork;
+			productName = TLCNetWork;
+			productReference = 8F4176631E6CFE7F00E21843 /* TLCNetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F41765B1E6CFE7F00E21843 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "李正兵";
+				TargetAttributes = {
+					8F4176621E6CFE7F00E21843 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F41765E1E6CFE7F00E21843 /* Build configuration list for PBXProject "TLCNetWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F41765A1E6CFE7F00E21843;
+			productRefGroup = 8F4176641E6CFE7F00E21843 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F4176621E6CFE7F00E21843 /* TLCNetWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F4176611E6CFE7F00E21843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4176761E6CFE7F00E21843 /* LaunchScreen.storyboard in Resources */,
+				8F4176731E6CFE7F00E21843 /* Assets.xcassets in Resources */,
+				8F4176711E6CFE7F00E21843 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E046E93359CF51558828BB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLCNetWork/Pods-TLCNetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B41D4EB4C216DD25FA519B2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLCNetWork/Pods-TLCNetWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1B5B428E17D6465A3EF1526 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F41765F1E6CFE7F00E21843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F41766E1E6CFE7F00E21843 /* ViewController.m in Sources */,
+				8F07FD581E6E7EA800DFD5ED /* TLCBaseResponse.m in Sources */,
+				8F07FD5B1E6E7EA800DFD5ED /* TLCNetworkingEngine.m in Sources */,
+				8F07FD571E6E7EA800DFD5ED /* TLCBaseRequest.m in Sources */,
+				8F241A911E6D664C000F164D /* ResponseIndexGoods.m in Sources */,
+				8F241A8B1E6D527A000F164D /* ResponseConfirmOrder.m in Sources */,
+				8F07FD5A1E6E7EA800DFD5ED /* TLCNetworking.m in Sources */,
+				8F07FD441E6E7E0600DFD5ED /* RequestChangePwd.m in Sources */,
+				8F07FD561E6E7EA800DFD5ED /* NSObject+TLCReflection.m in Sources */,
+				8F41766B1E6CFE7F00E21843 /* AppDelegate.m in Sources */,
+				8F241A821E6D0840000F164D /* RequestIndexBanners.m in Sources */,
+				8F241A881E6D5269000F164D /* RequestConfirmOrder.m in Sources */,
+				8F241A851E6D0A0A000F164D /* ResponseIndexBanners.m in Sources */,
+				8F07FD451E6E7E0600DFD5ED /* ResponseChangePwd.m in Sources */,
+				8F4176681E6CFE7F00E21843 /* main.m in Sources */,
+				8F07FD591E6E7EA800DFD5ED /* TLCNetworkError.m in Sources */,
+				8F241A8E1E6D6636000F164D /* RequestIndexGoods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F41766F1E6CFE7F00E21843 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F4176701E6CFE7F00E21843 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F4176741E6CFE7F00E21843 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F4176751E6CFE7F00E21843 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F4176781E6CFE7F00E21843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F4176791E6CFE7F00E21843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F41767B1E6CFE7F00E21843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE0C51BA1AEE891D681B3EC /* Pods-TLCNetWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLCNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Personal.TLCNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F41767C1E6CFE7F00E21843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71DD72837833F5F982449AF0 /* Pods-TLCNetWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLCNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Personal.TLCNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F41765E1E6CFE7F00E21843 /* Build configuration list for PBXProject "TLCNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4176781E6CFE7F00E21843 /* Debug */,
+				8F4176791E6CFE7F00E21843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F41767A1E6CFE7F00E21843 /* Build configuration list for PBXNativeTarget "TLCNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F41767B1E6CFE7F00E21843 /* Debug */,
+				8F41767C1E6CFE7F00E21843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F41765B1E6CFE7F00E21843 /* Project object */;
+}

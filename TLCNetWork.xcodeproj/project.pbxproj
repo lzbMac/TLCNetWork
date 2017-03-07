@@ -15,6 +15,7 @@
 		8F07FD591E6E7EA800DFD5ED /* TLCNetworkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD4F1E6E7EA800DFD5ED /* TLCNetworkError.m */; };
 		8F07FD5A1E6E7EA800DFD5ED /* TLCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD511E6E7EA800DFD5ED /* TLCNetworking.m */; };
 		8F07FD5B1E6E7EA800DFD5ED /* TLCNetworkingEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07FD531E6E7EA800DFD5ED /* TLCNetworkingEngine.m */; };
+		8F07FD601E6EB55500DFD5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F07FD5F1E6EB55500DFD5ED /* Assets.xcassets */; };
 		8F241A821E6D0840000F164D /* RequestIndexBanners.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F241A811E6D0840000F164D /* RequestIndexBanners.m */; };
 		8F241A851E6D0A0A000F164D /* ResponseIndexBanners.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F241A841E6D0A0A000F164D /* ResponseIndexBanners.m */; };
 		8F241A881E6D5269000F164D /* RequestConfirmOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F241A871E6D5269000F164D /* RequestConfirmOrder.m */; };
@@ -25,7 +26,6 @@
 		8F41766B1E6CFE7F00E21843 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F41766A1E6CFE7F00E21843 /* AppDelegate.m */; };
 		8F41766E1E6CFE7F00E21843 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F41766D1E6CFE7F00E21843 /* ViewController.m */; };
 		8F4176711E6CFE7F00E21843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F41766F1E6CFE7F00E21843 /* Main.storyboard */; };
-		8F4176731E6CFE7F00E21843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4176721E6CFE7F00E21843 /* Assets.xcassets */; };
 		8F4176761E6CFE7F00E21843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4176741E6CFE7F00E21843 /* LaunchScreen.storyboard */; };
 		E5D6F31357718D19595D453E /* libPods-TLCNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D22F12F4F8A3A62BE8E64E9E /* libPods-TLCNetWork.a */; };
 /* End PBXBuildFile section */
@@ -52,6 +52,7 @@
 		8F07FD531E6E7EA800DFD5ED /* TLCNetworkingEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCNetworkingEngine.m; sourceTree = "<group>"; };
 		8F07FD541E6E7EA800DFD5ED /* TLCRequestOperationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCRequestOperationProtocol.h; sourceTree = "<group>"; };
 		8F07FD551E6E7EA800DFD5ED /* TLCRequestParameterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCRequestParameterProtocol.h; sourceTree = "<group>"; };
+		8F07FD5F1E6EB55500DFD5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F241A801E6D0840000F164D /* RequestIndexBanners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestIndexBanners.h; sourceTree = "<group>"; };
 		8F241A811E6D0840000F164D /* RequestIndexBanners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestIndexBanners.m; sourceTree = "<group>"; };
 		8F241A831E6D0A0A000F164D /* ResponseIndexBanners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseIndexBanners.h; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		8F41766C1E6CFE7F00E21843 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8F41766D1E6CFE7F00E21843 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8F4176701E6CFE7F00E21843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F4176721E6CFE7F00E21843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F4176751E6CFE7F00E21843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F4176771E6CFE7F00E21843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D22F12F4F8A3A62BE8E64E9E /* libPods-TLCNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLCNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,8 +162,8 @@
 				8F07FD431E6E7E0600DFD5ED /* ResponseChangePwd.m */,
 				8F41766C1E6CFE7F00E21843 /* ViewController.h */,
 				8F41766D1E6CFE7F00E21843 /* ViewController.m */,
+				8F07FD5F1E6EB55500DFD5ED /* Assets.xcassets */,
 				8F41766F1E6CFE7F00E21843 /* Main.storyboard */,
-				8F4176721E6CFE7F00E21843 /* Assets.xcassets */,
 				8F4176741E6CFE7F00E21843 /* LaunchScreen.storyboard */,
 				8F4176771E6CFE7F00E21843 /* Info.plist */,
 				8F4176661E6CFE7F00E21843 /* Supporting Files */,
@@ -249,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F4176761E6CFE7F00E21843 /* LaunchScreen.storyboard in Resources */,
-				8F4176731E6CFE7F00E21843 /* Assets.xcassets in Resources */,
+				8F07FD601E6EB55500DFD5ED /* Assets.xcassets in Resources */,
 				8F4176711E6CFE7F00E21843 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

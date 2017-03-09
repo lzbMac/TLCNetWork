@@ -41,6 +41,7 @@ NSString *const kTLCAuthorization = @"Authorization";
     
     return engine;
 }
+
 - (void)startRequest:(__kindof TLCBaseRequest *)requestObject{
     
     NSAssert(requestObject, @"请求实体不能为空");
@@ -51,9 +52,16 @@ NSString *const kTLCAuthorization = @"Authorization";
     NSDictionary *dic = [self requestParams:requestObject];
 
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    if(requestObject.headerAuthorization.length) {
-        [manager.requestSerializer setValue:requestObject.headerAuthorization forHTTPHeaderField:kTLCAuthorization];
+//    if(requestObject.headerAuthorization.length) {
+//        [manager.requestSerializer setValue:requestObject.headerAuthorization forHTTPHeaderField:kTLCAuthorization];
+//    }
+    //请求头设置
+    if (requestObject.headers) {
+        [requestObject.headers enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+            [manager.requestSerializer setValue:obj forHTTPHeaderField:key];
+        }];
     }
+
 #ifdef TLCDebugMacro
     NSLog(@"发起请求>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
     NSLog(@"Get请求地址：\n%@",requestUrlString);

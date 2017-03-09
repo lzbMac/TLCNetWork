@@ -13,7 +13,6 @@
     self = [super init];
     if (self) {
         self.serviceName = @":8086/api/user/password";
-        self.headerAuthorization = @"";
     }
     return self;
 }

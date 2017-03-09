@@ -26,13 +26,13 @@ TLCRequestParameterProtocol
  */
 @property (nonatomic, strong) NSString *serviceName;
 /**
- 请求头,以键值对的形式存在
+ 请求头,以键值对的形式存在,可以在init中赋值，或直接对实例对象赋值
  */
 @property (nonatomic, strong)NSDictionary * headers;
 
 /**
  是否需要身份验证,默认不需要，需要身份验证的请求可以在子类的init方法中赋值
  */
-@property (nonatomic, assign)NSString * headerAuthorization;
+//@property (nonatomic, assign)NSString * headerAuthorization;
 
 @end

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>webImage_URL_place_completion_fetch</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>webImage
+.URLString(&lt;#NSString *#&gt;)
+.placeHolderImageName(&lt;#NSString *#&gt;)
+.completion(^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+    &lt;#code#&gt;
+})
+.fetch()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A74ABFCB-7767-4183-A636-3425D5C0B35F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TCTWebImage 3 params</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self fecthIndexGoods];
-    [self fetchIndexBannerData];
+//    [self fetchIndexBannerData];
 //    [self fetchOrderConfirmData];
 //    [self changePwdRequest];
 }

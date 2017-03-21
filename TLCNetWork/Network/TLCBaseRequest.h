@@ -14,6 +14,7 @@
 #import "TLCNetworkError.h"
 #import "TLCRequestOperationProtocol.h"
 #import "TLCRequestParameterProtocol.h"
+#import <NSObject+YYModel.h>
 
 @interface TLCBaseRequest : NSObject
 <

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F04A4741E70D55B0041EFC9 /* NSObject+TLCReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F04A4661E70D55B0041EFC9 /* NSObject+TLCReflection.m */; };
 		8F04A4751E70D55B0041EFC9 /* TLCBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F04A4681E70D55B0041EFC9 /* TLCBaseRequest.m */; };
 		8F04A4761E70D55B0041EFC9 /* TLCBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F04A46A1E70D55B0041EFC9 /* TLCBaseResponse.m */; };
 		8F04A4771E70D55B0041EFC9 /* TLCNetworkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F04A46D1E70D55B0041EFC9 /* TLCNetworkError.m */; };
@@ -33,8 +32,6 @@
 /* Begin PBXFileReference section */
 		3AE0C51BA1AEE891D681B3EC /* Pods-TLCNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLCNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLCNetWork/Pods-TLCNetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		71DD72837833F5F982449AF0 /* Pods-TLCNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLCNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLCNetWork/Pods-TLCNetWork.release.xcconfig"; sourceTree = "<group>"; };
-		8F04A4651E70D55B0041EFC9 /* NSObject+TLCReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TLCReflection.h"; sourceTree = "<group>"; };
-		8F04A4661E70D55B0041EFC9 /* NSObject+TLCReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TLCReflection.m"; sourceTree = "<group>"; };
 		8F04A4671E70D55B0041EFC9 /* TLCBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCBaseRequest.h; sourceTree = "<group>"; };
 		8F04A4681E70D55B0041EFC9 /* TLCBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCBaseRequest.m; sourceTree = "<group>"; };
 		8F04A4691E70D55B0041EFC9 /* TLCBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCBaseResponse.h; sourceTree = "<group>"; };
@@ -101,8 +98,6 @@
 		8F04A4641E70D55B0041EFC9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				8F04A4651E70D55B0041EFC9 /* NSObject+TLCReflection.h */,
-				8F04A4661E70D55B0041EFC9 /* NSObject+TLCReflection.m */,
 				8F04A4671E70D55B0041EFC9 /* TLCBaseRequest.h */,
 				8F04A4681E70D55B0041EFC9 /* TLCBaseRequest.m */,
 				8F04A4691E70D55B0041EFC9 /* TLCBaseResponse.h */,
@@ -317,7 +312,6 @@
 				8F241A8B1E6D527A000F164D /* ResponseConfirmOrder.m in Sources */,
 				8F04A4781E70D55B0041EFC9 /* TLCNetworking.m in Sources */,
 				8F07FD441E6E7E0600DFD5ED /* RequestChangePwd.m in Sources */,
-				8F04A4741E70D55B0041EFC9 /* NSObject+TLCReflection.m in Sources */,
 				8F41766B1E6CFE7F00E21843 /* AppDelegate.m in Sources */,
 				8F241A821E6D0840000F164D /* RequestIndexBanners.m in Sources */,
 				8F241A881E6D5269000F164D /* RequestConfirmOrder.m in Sources */,

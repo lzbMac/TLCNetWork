@@ -11,7 +11,9 @@
 @end
 
 @implementation ResponseIndexBanners
-
++ (NSDictionary *)modelContainerPropertyGenericClass {
+    return @{@"branner":[IndexSubjectLeft class]};
+}
 - (NSDictionary *)replacedElementDictionary{
     return @{@"subjectLeft":@"IndexSubjectLeft",@"branner":@"IndexSubjectLeft"};
 }

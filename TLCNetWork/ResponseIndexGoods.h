@@ -9,6 +9,7 @@
 #import "TLCBaseResponse.h"
 
 @interface IndexGoodInfoObj : NSObject
+@property (copy, nonatomic)NSString * gid;
 @property (copy, nonatomic)NSString * storeId;
 @property (copy, nonatomic)NSString * isLogin;
 @property (copy, nonatomic)NSString * path;

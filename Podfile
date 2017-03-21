@@ -6,6 +6,7 @@ def default_pods
     # Pods for TLCNetWork
     # 第三方库
     pod 'AFNetworking', '~> 3.0'
+    pod 'YYModel', '~> 1.0.4'
 
 end
 

@@ -100,12 +100,15 @@ NSString *const kTLCAuthorization = @"Authorization";
                      id resultDict = [responseObject objectForKey:kTLCResonseBody];
                      NSString *responseName = requestObject.responseName;
                      if ([resultDict isKindOfClass:[NSDictionary class]]) {
-                         responseInstance = [[NSClassFromString(responseName)
-                                              alloc] initWithDict:resultDict className:responseName];
+//                         responseInstance = [[NSClassFromString(responseName)
+//                                              alloc] initWithDict:resultDict className:responseName];
+                         responseInstance = [NSClassFromString(responseName) yy_modelWithDictionary:resultDict];
+                         
                      }else {
                          NSDictionary * resultBodyDict = @{kTLCResonseBody:resultDict?resultDict:@""};
-                         responseInstance = [[NSClassFromString(responseName)
-                                              alloc] initWithDict:resultBodyDict className:responseName];
+//                         responseInstance = [[NSClassFromString(responseName)
+//                                              alloc] initWithDict:resultBodyDict className:responseName];
+                         responseInstance = [NSClassFromString(responseName) yy_modelWithDictionary:resultBodyDict];
                      }
                  }
              }

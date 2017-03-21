@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSObject+YYModel.h"
 
 @interface TLCBaseResponse : NSObject
 

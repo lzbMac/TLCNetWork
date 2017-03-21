@@ -9,11 +9,16 @@
 #import "ResponseIndexGoods.h"
 
 @implementation IndexGoodInfoObj
-
++ (NSDictionary *)modelCustomPropertyMapper {
+    return @{@"gid":@"id"};
+}
 @end
 
 
 @implementation ResponseIndexGoods
++ (NSDictionary *)modelContainerPropertyGenericClass {
+    return @{@"goodses":@"IndexGoodInfoObj"};
+}
 - (NSDictionary *)replacedElementDictionary{
     return @{@"goodses":@"IndexGoodInfoObj"};
 }

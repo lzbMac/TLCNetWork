@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self fecthIndexGoods];
-//    [self fetchIndexBannerData];
+    [self fetchIndexBannerData];
 //    [self fetchOrderConfirmData];
 //    [self changePwdRequest];
 }
@@ -44,6 +44,7 @@
     request.equCode = @"e61c07a17efdI";
     [request startRequestWithSuccess:^(id responseObject, NSDictionary *options) {
         NSLog(@"----------Goods success---------");
+        
     } fail:^(TLCNetworkError *error, NSDictionary *options) {
         NSLog(@"----------fail---------");
     }];

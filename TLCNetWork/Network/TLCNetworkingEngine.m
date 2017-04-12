@@ -21,9 +21,14 @@ NSString *const kTLCResonseBody = @"result";
 NSString *const kTLCSceneId = @"sceneId";
 NSString *const kTLCAuthorization = @"Authorization";
 
+NSString *const kCodeLostConnection = @"R00003";
+
 @interface TLCNetworkingEngine ()
 
 @property (nonatomic, strong) NSMutableArray<TLCBaseRequest *> *taskQueue;
+
+@property (nonatomic, strong) AFHTTPSessionManager *sessionManager;
+
 
 @end
 
@@ -37,6 +42,7 @@ NSString *const kTLCAuthorization = @"Authorization";
     
     dispatch_once(&once, ^{
         engine = [TLCNetworkingEngine new];
+        engine.sessionManager = [AFHTTPSessionManager manager];
     });
     
     return engine;
@@ -51,14 +57,13 @@ NSString *const kTLCAuthorization = @"Authorization";
     NSString *requestUrlString = [NSString stringWithFormat:@"%@%@",requestObject.baseUrlString,requestObject.serviceName];
     NSDictionary *dic = [self requestParams:requestObject];
 
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
 //    if(requestObject.headerAuthorization.length) {
 //        [manager.requestSerializer setValue:requestObject.headerAuthorization forHTTPHeaderField:kTLCAuthorization];
 //    }
     //请求头设置
     if (requestObject.headers) {
         [requestObject.headers enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-            [manager.requestSerializer setValue:obj forHTTPHeaderField:key];
+            [self.sessionManager.requestSerializer setValue:obj forHTTPHeaderField:key];
         }];
     }
 
@@ -67,7 +72,7 @@ NSString *const kTLCAuthorization = @"Authorization";
     NSLog(@"Get请求地址：\n%@",requestUrlString);
 #endif
     __weak typeof(self)weakSelf = self;
-    [manager POST:requestUrlString
+    [self.sessionManager POST:requestUrlString
       parameters:dic
          progress:nil
          success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
@@ -91,6 +96,11 @@ NSString *const kTLCAuthorization = @"Authorization";
                  NSString *sceneId = [responseObject objectForKey:kTLCSceneId];
                  
                  options = @{kTLCNetStateCode:code?code:@"",kTLCOpretionMsg:msg?msg:@"",kTLCSceneId:sceneId?sceneId:@""};
+                 
+                 if ([code isEqualToString:kCodeLostConnection]) {
+#warning 此处需要重新登录
+                     //to do .......
+                 }
                  
                  NSInteger success = [[responseObject objectForKey:kTLCSuccessFlag] integerValue];
                  if (!success) {
